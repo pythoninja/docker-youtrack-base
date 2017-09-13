@@ -9,23 +9,34 @@ This project was inspired from:
 ## Build image
 
 ```
-docker build -f Dockerfile -t docker-youtrack-base:0.1.0
+docker build -f Dockerfile -t docker-youtrack-base:latest
 ```
 
 ## Run container
 
 ```
-docker run --name youtrack-base -v $(pwd)/data/youtrack/data/:/opt/yt/data/ -v $(pwd)/data/youtrack/backup/:/opt/yt/backup/ -v $(pwd)/data/youtrack/logs/:/opt/yt/logs/ --rm -d -p 8080:8080 docker-youtrack-base:0.1.0
+docker run --name youtrack-base -v $(pwd)/data/youtrack/data/:/opt/yt/data/ -v $(pwd)/data/youtrack/backup/:/opt/yt/backup/ -v $(pwd)/data/youtrack/logs/:/opt/yt/logs/ --rm -d -p 8080:8080 docker-youtrack-base:latest
 ```
+
+## Development
+
+1. Clone this repo and make changes
+2. Tag as `latest`: `git tag latest -m "tag annotation"` to run Docker Hub autobuild
+3. Tag as `0.0.0-pre.1`: `git tag 0.0.0-pre.1` to run Docker Hub autobuild and autotagging fresh image
+4. Push tag or tags: `git push latest`
+5. Create new release using Github web interface
 
 ## Todo
 
 1. Create non-root user
 2. Add more variables
 3. Optimize image
-4. Check for Youtrack latest version
+4. Add Youtrack version checker
 5. Add supervisor config
-6. Set up Docker Hub workflow
+6. Add Github release maker
+
+## Already done
+1. ~~Set up Docker Hub workflow~~
 
 ## License
 
