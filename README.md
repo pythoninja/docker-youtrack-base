@@ -25,6 +25,7 @@ docker run --name youtrack-base -v $(pwd)/data/youtrack/data/:/opt/yt/data/ -v $
 3. Optimize image
 4. Check for Youtrack latest version
 5. Add supervisor config
+6. Set up Docker Hub workflow
 
 ## License
 
