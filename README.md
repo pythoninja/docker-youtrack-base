@@ -6,6 +6,18 @@ This project was inspired from:
 1. [uniplug/youtrack-docker](https://github.com/uniplug/youtrack-docker)
 2. [esycat/docker-youtrack](https://github.com/esycat/docker-youtrack)
 
+## Tags
+
+Available tags:
+1. latest
+2. 2017.3.36019
+
+
+## Usage example
+
+1. Get latest image: `docker pull pythoninja/docker-youtrack-base:latest`
+2. Get tagged image : `docker pull pythoninja/docker-youtrack-base:tag`
+
 ## Build image
 
 ```
@@ -13,7 +25,6 @@ docker build -f Dockerfile -t docker-youtrack-base:latest
 ```
 
 ## Run container
-
 
 ```
 docker run --name youtrack-base \
@@ -31,6 +42,10 @@ docker run --name youtrack-base \
 3. Tag as `0.0.0-pre.1`: `git tag 0.0.0-pre.1` to run Docker Hub autobuild and autotagging fresh image
 4. Push tag or tags: `git push latest`
 5. Create new release using Github web interface
+
+## Versioning
+
+docker-youtrack-base follows main version of Jetbrains Youtrack. Additional number could be added due to project specified changes.
 
 ## Todo
 
