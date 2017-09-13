@@ -14,8 +14,14 @@ docker build -f Dockerfile -t docker-youtrack-base:latest
 
 ## Run container
 
+
 ```
-docker run --name youtrack-base -v $(pwd)/data/youtrack/data/:/opt/yt/data/ -v $(pwd)/data/youtrack/backup/:/opt/yt/backup/ -v $(pwd)/data/youtrack/logs/:/opt/yt/logs/ --rm -d -p 8080:8080 docker-youtrack-base:latest
+docker run --name youtrack-base \
+ -v $(pwd)/data/youtrack/database/:/opt/yt/database/ \
+ -v $(pwd)/data/youtrack/backup/:/opt/yt/backup/ \
+ -v $(pwd)/data/youtrack/logs/:/opt/yt/logs/ \
+ --rm -d -p 8080:8080 \
+ pythoninja/docker-youtrack-base:latest
 ```
 
 ## Development

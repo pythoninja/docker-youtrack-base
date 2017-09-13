@@ -1,15 +1,13 @@
 FROM anapsix/alpine-java:8
 
-ENV YOUTRACK_URL=http://download.jetbrains.com/charisma \
-    YOUTRACK_VERSION=2017.3 \
-    YOUTRACK_BUILD=36019 \
-    YOUTRACK_LOCALE=en_us \
-    SERVICE_VERSION=0.1.0
+ARG YOUTRACK_URL=http://download.jetbrains.com/charisma
+ARG YOUTRACK_VERSION=2017.3
+ARG YOUTRACK_BUILD=36019
+ARG YOUTRACK_LOCALE=en_us
 
-LABEL Name=docker-youtrack-base \
-      Version=${SERVICE_VERSION} \
-      Youtrack_version=${YOUTRACK_VERSION}.${YOUTRACK_BUILD} \
-      Maintainer=Stanislav
+LABEL name=docker-youtrack-base \
+      youtrack-version=${YOUTRACK_VERSION}.${YOUTRACK_BUILD} \
+      maintainer=Stanislav
 
 RUN apk add --update openssl && \
     apk add --update build-base && \
