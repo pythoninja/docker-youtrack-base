@@ -56,16 +56,13 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 
 ## Todo
 
-1. Add more variables
-2. Optimize image
-3. Add Youtrack version checker
-4. Add supervisor config
-5. Add Github release maker
-
-## Already done
-1. ~~Set up Docker Hub workflow~~
-2. ~~Create non-root user~~
-
+- [x] Set up Docker Hub workflow
+- [x] Create non-root user
+- [ ] Add more variables
+- [ ] Optimize image
+- [ ] Add Youtrack version checker
+- [ ] Add supervisor config
+- [ ] Add Github release maker
 
 ## License
 
