@@ -20,6 +20,8 @@ Run this command to create required dirs:
 mkdir -p data/youtrack/{backup,database,logs}
 ```
 
+Build image and run container. See below.
+
 ## Usage example
 
 1. Get latest image: `docker pull pythoninja/docker-youtrack-base:latest`
@@ -57,7 +59,7 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 ## Todo
 
 - [x] Set up Docker Hub workflow
-- [x] Create non-root user #1
+- [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [ ] Add more variables
 - [ ] Optimize image
 - [ ] Add Youtrack version checker
