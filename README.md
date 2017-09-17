@@ -12,6 +12,13 @@ Available tags:
 1. latest
 2. 2017.3.36019
 
+## Install
+
+Run this command to create required dirs:
+
+```
+mkdir -p data/youtrack/{backup,database,logs}
+```
 
 ## Usage example
 
@@ -49,15 +56,16 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 
 ## Todo
 
-1. Create non-root user
-2. Add more variables
-3. Optimize image
-4. Add Youtrack version checker
-5. Add supervisor config
-6. Add Github release maker
+1. Add more variables
+2. Optimize image
+3. Add Youtrack version checker
+4. Add supervisor config
+5. Add Github release maker
 
 ## Already done
 1. ~~Set up Docker Hub workflow~~
+2. Create non-root user
+
 
 ## License
 
