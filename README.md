@@ -57,7 +57,7 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 ## Todo
 
 - [x] Set up Docker Hub workflow
-- [x] Create non-root user
+- [x] Create non-root user #1
 - [ ] Add more variables
 - [ ] Optimize image
 - [ ] Add Youtrack version checker
