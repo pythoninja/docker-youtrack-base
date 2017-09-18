@@ -11,9 +11,10 @@ This project was inspired from:
 ## Releases
 
 **Fresh tags:**
-1. `latest` or `2017.3.36019.2`
-2. `2017.3.36019.1`
-3. `2017.3.36019`
+1. `latest` or `2017.3.36019.3`
+2. `2017.3.36019.2`
+3. `2017.3.36019.1`
+4. `2017.3.36019`
 
 **Old tags:**
 
@@ -79,4 +80,5 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 
 ## License
 
-docker-youtrack-base released under the MIT license.
+docker-youtrack-base released under the MIT license - see the [LICENSE](LICENSE) file for details.
+
