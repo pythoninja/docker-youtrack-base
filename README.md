@@ -11,8 +11,9 @@ This project was inspired from:
 ## Releases
 
 **Fresh tags:**
-1. `latest` or `2017.3.36019.1`
-2. `2017.3.36019`
+1. `latest` or `2017.3.36019.2`
+2. `2017.3.36019.1`
+3. `2017.3.36019`
 
 **Old tags:**
 
