@@ -35,4 +35,5 @@ CMD java -Xmx1g -XX:MaxMetaspaceSize=250M \
          -Ddatabase.backup.location=/opt/yt/backup \
          -Djetbrains.youtrack.logDir=/opt/yt/logs \
          -Djetbrains.youtrack.locale=${YOUTRACK_LOCALE} \
+         -Djava.security.egd=/dev/zrandom \
          -jar /opt/yt/youtrack.jar 8080
