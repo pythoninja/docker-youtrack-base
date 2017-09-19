@@ -11,8 +11,8 @@ LABEL name=docker-youtrack-base \
 
 RUN addgroup -S docker && \
     adduser -S -h /opt/yt -u 1000 -g docker docker && \
-    apk add --update openssl && \
-    apk add --update build-base && \
+    apk add --no-cache --update openssl && \
+    apk add --no-cache --update build-base && \
     apk add --no-cache supervisor && \
     rm -rf /var/cache && \
     mkdir -p /opt/yt /opt/yt/database /opt/yt/backup /opt/yt/logs  && \
