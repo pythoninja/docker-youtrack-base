@@ -12,14 +12,12 @@ LABEL name=docker-youtrack-base \
 RUN addgroup -S docker && \
     adduser -S -h /opt/yt -u 1000 -g docker docker && \
     apk add --no-cache --update openssl && \
-    apk add --no-cache --update build-base && \
-    apk add --no-cache supervisor && \
     rm -rf /var/cache && \
     mkdir -p /opt/yt /opt/yt/database /opt/yt/backup /opt/yt/logs  && \
     echo Download url ${YOUTRACK_URL}/youtrack-${YOUTRACK_VERSION}.${YOUTRACK_BUILD}.jar && \
     wget ${YOUTRACK_URL}/youtrack-${YOUTRACK_VERSION}.${YOUTRACK_BUILD}.jar -O /opt/yt/youtrack.jar && \
     chown -R docker:docker /opt/yt
-
+    
 USER docker
 
 EXPOSE 8080
