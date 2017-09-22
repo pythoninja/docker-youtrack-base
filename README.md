@@ -73,7 +73,7 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 - [x] Set up Docker Hub workflow
 - [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [ ] Add more variables
-- [ ] Optimize image
+- [x] Optimize image
 - [ ] Add Youtrack version checker
 - [ ] Add supervisor config
 - [ ] Add Github release maker
