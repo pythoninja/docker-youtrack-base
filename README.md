@@ -15,11 +15,10 @@ This project was inspired from:
 
 
 **Old tags:**
+1. `2017.3.36019.3`
 1. `2017.3.36019.2`
 1. `2017.3.36019.1`
 1. `2017.3.36019`
-
-Not now.
 
 **Releases:**
 
@@ -74,7 +73,7 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 - [x] Set up Docker Hub workflow
 - [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [ ] Add more variables
-- [x] Optimize image
+- [x] Optimize image [#3](//github.com/pythoninja/docker-youtrack-base/pull/3)
 - [ ] Add Youtrack version checker (in progress)
 - [ ] Add Github release maker
 
