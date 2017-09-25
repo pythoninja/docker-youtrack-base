@@ -2,7 +2,7 @@
 
 Docker YoutTack image based on Alpine Java 8.
 
-Built with YouTrack version 2017.3.36019 (September 7, 2017)
+Built with YouTrack version 2017.3.36369 (September 22, 2017)
 
 This project was inspired from:
 1. [uniplug/youtrack-docker](https://github.com/uniplug/youtrack-docker)
@@ -11,12 +11,13 @@ This project was inspired from:
 ## Releases
 
 **Fresh tags:**
-1. `latest` or `2017.3.36019.3`
-2. `2017.3.36019.2`
-3. `2017.3.36019.1`
-4. `2017.3.36019`
+1. `latest` or `2017.3.36369`
+
 
 **Old tags:**
+1. `2017.3.36019.2`
+1. `2017.3.36019.1`
+1. `2017.3.36019`
 
 Not now.
 
@@ -74,8 +75,7 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 - [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [ ] Add more variables
 - [x] Optimize image
-- [ ] Add Youtrack version checker
-- [ ] Add supervisor config
+- [ ] Add Youtrack version checker (in progress)
 - [ ] Add Github release maker
 
 ## License
