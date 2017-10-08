@@ -1,6 +1,7 @@
 # docker-youtrack-base
 
 [![](https://images.microbadger.com/badges/image/pythoninja/docker-youtrack-base.svg)](https://microbadger.com/images/pythoninja/docker-youtrack-base "Get your own image badge on microbadger.com")
+[![Latest YouTrack version](http://api.stas.pw/v1/youtrack/latest.svg)]
 
 Docker YoutTack image based on Alpine Java 8.
 
