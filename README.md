@@ -3,7 +3,7 @@
 [![](https://images.microbadger.com/badges/image/pythoninja/docker-youtrack-base.svg)](https://microbadger.com/images/pythoninja/docker-youtrack-base "Get your own image badge on microbadger.com")
 ![](http://api.stas.pw/v1/youtrack/latest.svg)
 
-Docker YoutTack image based on Alpine Java 8.
+Docker YouTack image based on Alpine Java 8.
 
 Built with YouTrack version 2017.3.36626 (October 5, 2017)
 
