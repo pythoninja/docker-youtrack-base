@@ -69,6 +69,10 @@ docker run --name youtrack-base \
 4. Push tag or tags: `git push latest`
 5. Create new release using Github web interface
 
+## Youtrack Version Checker
+
+Deployed to [api.stas.pw](http://api.stas.pw/v1/youtrack/latest.svg) and in alpha stage.
+
 ## Versioning
 
 docker-youtrack-base follows main version of Jetbrains Youtrack. Additional number could be added due to project specified changes.
@@ -79,8 +83,9 @@ docker-youtrack-base follows main version of Jetbrains Youtrack. Additional numb
 - [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [ ] Add more variables
 - [x] Optimize image [#3](//github.com/pythoninja/docker-youtrack-base/pull/3)
-- [ ] Add Youtrack version checker (in progress)
+- [x] Add Youtrack version checker
 - [ ] Add Github release maker
+- [ ] Add random query string to README for YouTrack badge
 
 ## License
 
