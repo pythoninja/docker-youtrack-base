@@ -5,7 +5,7 @@
 
 Docker YouTrack image based on Alpine Java 8.
 
-Built with YouTrack version 2017.3.36626 (October 5, 2017)
+Built with YouTrack version 2017.3.36743 (October 10, 2017)
 
 This project was inspired from:
 1. [uniplug/youtrack-docker](https://github.com/uniplug/youtrack-docker)
@@ -15,10 +15,11 @@ This project was inspired from:
 
 **Fresh tags:**
 
-1. `latest` or `2017.3.36626`
+1. `latest` or `2017.3.36743`
 
 **Old tags:**
 
+1. `2017.3.36626`
 1. `2017.3.36369`
 1. `2017.3.36019.3`
 1. `2017.3.36019.2`
