@@ -19,5 +19,5 @@
 1. Open a pull request with comment: `New release based on YouTrack 2017.3.build_number`
 1. Merge PR to master
 1. Add new release with fresh build tag: https://github.com/pythoninja/docker-youtrack-base/releases/new
-1. Title: **2017.3.build_number**
-1. Text: **YouTrack build: 2017.3.build_number** and optionally add another changes
+1. Title: `2017.3.build_number`
+1. Text: `YouTrack build: 2017.3.build_number` and optionally add another changes
