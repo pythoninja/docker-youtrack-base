@@ -73,6 +73,10 @@ docker run --name youtrack-base \
 4. Push tag or tags: `git push latest`
 5. Create new release using Github web interface
 
+## Checklist
+
+Checklist for new YouTrack release: [CHECKLIST.md](CHECKLIST.md)
+
 ## Youtrack Version Checker
 
 Deployed to [api.stas.pw](http://api.stas.pw/v1/youtrack/latest.svg) and in alpha stage.
