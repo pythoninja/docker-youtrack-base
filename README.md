@@ -47,7 +47,7 @@ Build image and run container. See below.
 ## Build image
 
 ```
-docker build -f Dockerfile -t docker-youtrack-base:latest
+docker build -f Dockerfile -t docker-youtrack-base:latest .
 ```
 
 ## Run container
