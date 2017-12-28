@@ -5,7 +5,7 @@
 
 Docker YouTrack image based on Alpine Java 8.
 
-Built with YouTrack version 2017.3.37623 (November 20, 2017)
+Built with YouTrack version 2017.4.38399 (December 21, 2017)
 
 This project was inspired from:
 1. [uniplug/youtrack-docker](https://github.com/uniplug/youtrack-docker)
@@ -15,13 +15,13 @@ This project was inspired from:
 
 **Fresh tags:**
 
-1. `latest` or `2017.4.37623`
+1. `latest` or `2017.4.38399`
 
 **Old tags:**
 
-1. `2017.3.37517`
+1. `2017.3.37623` 
+1. `2017.3.37517` 
 1. `2017.3.37328`
-1. `2017.3.37116`
 
 More old tags see on [Docker Hub](https://hub.docker.com/r/pythoninja/docker-youtrack-base/tags/)
 
@@ -73,9 +73,9 @@ docker run --name youtrack-base \
 
 Checklist for new YouTrack release: [CHECKLIST.md](CHECKLIST.md)
 
-## Youtrack Version Checker
+## Youtrack Online Version Checker
 
-Deployed to [api.stas.pw](http://api.stas.pw/v1/youtrack/latest.svg) and in alpha stage.
+Deployed to [api.stas.pw](http://api.stas.pw/v1/youtrack/latest.svg). Generates badge with current YouTrack version.
 
 ## Versioning
 
