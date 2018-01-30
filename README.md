@@ -73,20 +73,20 @@ docker run --name youtrack-base \
 
 Checklist for new YouTrack release: [CHECKLIST.md](CHECKLIST.md)
 
-## Youtrack Online Version Checker
+## YouTrack Online Version Checker
 
-YouTrack badge generator (cron checks new version every hour and updates badge if remote version is different from cached one) was deployed to [api-stage.stas.pw](http://api-stage.stas.pw/v1/youtrack/latest.svg).
+YouTrack badge generator (cron checks new version every hour and updates badge if remote version is different from cached one) was deployed to [api.stas.pw](http://api.stas.pw/v1/youtrack/latest.svg).
 
 ## Versioning
 
-docker-youtrack-base follows main version of Jetbrains Youtrack. Additional number could be added due to project specified changes.
+docker-youtrack-base follows main version of Jetbrains YouTrack. Additional number could be added due to project specified changes.
 
 ## Todo
 
 - [x] Set up Docker Hub workflow
 - [x] Create non-root user [#1](//github.com/pythoninja/docker-youtrack-base/pull/1)
 - [x] Optimize image [#3](//github.com/pythoninja/docker-youtrack-base/pull/3)
-- [x] Add Youtrack version checker
+- [x] Add YouTrack version checker
 - [ ] Add more variables
 - [ ] Add Github release maker
 
