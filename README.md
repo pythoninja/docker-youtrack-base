@@ -1,11 +1,10 @@
 # docker-youtrack-base
 
 [![](https://images.microbadger.com/badges/image/pythoninja/docker-youtrack-base.svg)](https://microbadger.com/images/pythoninja/docker-youtrack-base "Get your own image badge on microbadger.com")
-[![](http://api.stas.pw/v1/youtrack/latest.svg)](https://www.jetbrains.com/youtrack/download/get_youtrack.html "Get latest YouTrack binary")
 
 Docker YouTrack image based on Alpine Java 8.
 
-Built with YouTrack version 2018.1.40341 (March 23, 2018)
+Built with YouTrack version 2018.1.41051 (April 20, 2018)
 
 This project was inspired from:
 1. [uniplug/youtrack-docker](https://github.com/uniplug/youtrack-docker)
@@ -15,14 +14,14 @@ This project was inspired from:
 
 **Fresh tags:**
 
-1. `latest` or `2018.1.40341`
+1. `latest` or `2018.1.41051`
 
 **Old tags:**
 
+1. `2018.1.40341`
 1. `2017.4.39083`
 1. `2017.4.38399` 
 1. `2017.4.37623` 
-1. `2017.3.37517` 
 
 More old tags see on [Docker Hub](https://hub.docker.com/r/pythoninja/docker-youtrack-base/tags/)
 
