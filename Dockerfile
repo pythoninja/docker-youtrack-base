@@ -2,7 +2,7 @@ FROM anapsix/alpine-java:8
 
 ARG YOUTRACK_URL=https://download.jetbrains.com/charisma
 ARG YOUTRACK_VERSION=2018.1
-ARG YOUTRACK_BUILD=41051
+ARG YOUTRACK_BUILD=41561
 ARG YOUTRACK_LOCALE=en_us
 
 LABEL name=docker-youtrack-base \
